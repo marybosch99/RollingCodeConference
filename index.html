@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilos.css" />
+
+  <title>RollingCode Conferencia</title>
+  <link rel="shortcut icon" href="img/icono.png" type="image/x-icon" />
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="64">
+
+  <!--Comienzo del header-->
+  <header class="fixed-top">
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="logo de rolling" /> Conf
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#main">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#speaker">Los speakers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#conviertete">Conviertete en Speaker</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-rolling" href="#" data-toggle="modal" data-target="#comprarTicket">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!--/header-->
+
+  <!--main-->
+  <main id="main" class="ancla">
+    <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img1.png" class="d-block w-100" alt="imagen site 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img2.png" class="d-block w-100" alt="imagen site 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img3.png" class="d-block w-100" alt="imagen site 3">
+        </div>
+        <div class="overlay">
+          <div class="container h-100">
+            <div class="row align-items-center h-100">
+              <div class="col-md-6 offset-md-6 text-center text-md-right">
+                <h1>RollingCode Conferencia</h1>
+                <p class="d-none d-md-block">
+                  Rolling Code realiza su primer evento de conferencias! En
+                  este evento conocerás personas geniales que están a la
+                  vanguardia de la tecnología. Escucha las conferencias,
+                  plantea preguntas y relaciónate con otros alumnos y mentores
+                  de esta comunidad que va creciendo. Te esperamos!
+                </p>
+                <a href="#conviertete" class="btn btn-outline-light mr-2">Quiero ser speaker</a>
+                <button class="btn btn-rolling" data-toggle="modal" data-target="#comprarTicket">Comprar tickets</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--botones de transicion-->
+      <!-- <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+    </div>
+  </main>
+  <!--/main-->
+  <!--speaker-->
+  <section id="speaker" class="mt-4 ancla">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase mb-4">
+          <small>Conoce a los </small>
+          <h2>Speakers</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/Speakers/pablo.png" class="card-img-top" alt="Pablo Rivas">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-pill badge-warning">Co-founder</span>
+                <span class="badge badge-pill badge-success">Backend</span>
+              </div>
+              <h5 class="card-title">Pablo Rivas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi
+                exercitationem nemo sed fugiat rem recusandae reiciendis repudiandae doloribus? Id!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/Speakers/Walter.png" class="card-img-top" alt="Walter Juarez Rivas">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-pill badge-warning">Co-founder</span>
+                <span class="badge badge-pill badge-primary">Frontend</span>
+              </div>
+              <h5 class="card-title">Pablo Rivas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi
+                exercitationem nemo sed fugiat rem recusandae reiciendis repudiandae doloribus? Id!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/Speakers/Jhonny.png" class="card-img-top" alt="Jhonny Guzman">
+            <div class="card-body">
+              <div class="badges">
+                <span class="badge badge-pill badge-warning">Co-founder</span>
+                <span class="badge badge-pill badge-danger">Fullstack</span>
+              </div>
+              <h5 class="card-title">Pablo Rivas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur animi
+                exercitationem nemo sed fugiat rem recusandae reiciendis repudiandae doloribus? Id!</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/speaker-->
+
+  <!--lugar y fecha-->
+  <section id="lugar" class="ancla">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 pl-0 pr-0">
+          <img src="img/rolling_site.jpg" alt="site">
+        </div>
+        <div class="col-12 col-lg-6 p-4">
+          <h2>Site centro - Octubre 2020</h2>
+          <p>RollingCode school es la primera academia de código de Tucumán. La misión es
+            formar a los nuevos profesionales de la tecnología que liderarán el futuro. Con un programa
+            de enseñanza en linea de 6 meses los estudiantes aprenden las herramientas necesarias para entrar
+            en la industria del software y crecer como profesionales.
+          </p>
+          <a class="btn btn-outline-light" href="https://rollingcodeschool.com/" target="_blank">Conoce mas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/lugar y fecha-->
+
+  <!--conviertete en speaker-->
+  <section id="conviertete" class="mt-3 mb-3 ancla">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <small>Conviertete en un </small>
+          <h2>Speaker</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <span>Anótate como speaker para dar una <abbr title="charla de 5 minutos" data-toggle="tooltip" data-placement="bottom">charla ignite</abbr>. Cuéntanos de que quieres hablar!</span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 pt-2">
+          <form>
+            <div class="row">
+              <div class="form-group col-12 col-md-6">
+                <input type="text" class="form-control" placeholder="Nombre y Apellido">
+              </div>
+              <div class="form-group col-12 col-md-6">
+                <input type="email" class="form-control" placeholder="Ingrese su e-mail">
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col">
+                <textarea class="form-control" rows="3" placeholder="Sobre que quieres hablar..."></textarea>
+                <small class="form-text text-muted">*Recuerda incluir un titulo a tu charla.</small>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-4 ml-auto">
+                <button class="btn btn-rolling btn-block">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/conviertete en speaker-->
+
+    <!--footer-->
+  <footer>
+    <div  class="container-fluid">
+      <div id="footer" class="row text-center">
+        <div class="col-12 col-md"><a href="#">Contacto</a></div>
+        <div class="col-12 col-md"><a href="#">Preguntas frecuentes</a></div>
+        <div class="col-12 col-md"><a href="#">Prensa</a></div>
+        <div class="col-12 col-md"><a href="#">Privacidad</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!--/footer-->
+
+  <!--Ventana modal-->
+  <!-- <div class="modal" id="ventanamodal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Comprar tickets</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>Compra tus tickets aqui</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Comprar</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+<!--/ventana modal-->
+
+<!-- Modal -->
+<div class="modal fade" id="comprarTicket" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <form>
+          <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Comprar Tickets</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Ingresa tu usuario de gmail" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+          </div>          
+        </div>
+        <div class="alert alert-warning text-center" role="alert">
+          Enviaremos un link de pago a tu correo electronico.
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-rolling">Comprar</button>
+      </div>
+    </form>
+    <!--/form-->
+    </div>
+  </div>
+</div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script>$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });</script>  
+</body>
+
+</html>
